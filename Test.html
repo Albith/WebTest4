@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0 30%;
+}
+
+p {
+    font-family: verdana;
+    font-size: 10px;
+    margin: 10px 20px 5px 20px;
+    text-align:center;
+}
+
+#pictureArea{
+	
+    padding: 1%;
+    border:3px solid;
+    border-color:coral;
+	border-radius:25px;
+    /*width:200px;*/
+    float: left;
+
+
+
+    width: 31%;
+
+    min-width: 200px;
+    max-width:300px;
+
+
+    margin:10px auto;
+    margin-left:1%;
+
+
+	}
+
+#galleryArea
+{
+	max-width: 800px;
+}
+
+img{
+	border:5px;
+    border-radius:25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 200px; 
+  
+	}
+
+@media only screen and (max-width: 600px) {
+    #pictureArea{
+    
+    
+    
+    
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div id="title">Gallery</div>
+
+<div id="galleryArea" class="clearfix">
+    <div id="pictureArea">
+        <img src="http://www.abcgallery.com/p/picasso/picasso195.jpg" >
+        <p>1915. Oil on canvas. <br>The Museum of Modern Arts, New York, NY, USA.</p>
+    </div>
+
+    <div id="pictureArea">
+        <img src="http://www.abcgallery.com/p/picasso/picasso6.jpg" >
+        <p>1915. Oil on canvas. <br>The Museum of Modern Arts, New York, NY, USA.</p>
+    </div>
+
+    <div id="pictureArea">
+        <img src="http://www.abcgallery.com/p/picasso/picasso268.jpg" >
+        <p>1915. Oil on canvas. <br>The Museum of Modern Arts, New York, NY, USA.</p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
